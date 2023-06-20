@@ -1,0 +1,35 @@
+**What is Emmet?
+Emmet is a plugin for many popular text editors which greatly imporves HTML and CSS workflow. 
+General way to write Emmet is tagname[series of expression]. Where tagname is series of expression you want to generate and series of expression is the text you want to generate.
+example: div{This is a div}
+
+Different between Library and Framework?
+Library: It is a collection of helper modules, classes, functions, objects and pre written code etc. While Framework comprises lot of APIs, compiler, support program and libraries.
+Including Framwork in an existing project smoothely is nearly impossible but libraries can be integrated easily into existing projects to add some functionality.
+Basically a library performs a set of specific and well defined operations such as network protocols, compression,image manipualtions, string utilities, regular expressions evaluation, math etc.
+Whereas Framework is known to be a skeleton where the application defines the content of the operation by fillinf out the skeleton.
+When we call a method from the library then we are in control. But in framework the control is inverted because the framework calls us.
+
+What is CDN and why do we use it?
+A Content delivery network is a geographically distributed group of servers that caches content close to the end users. It allows quick transfer of assets needed for loading internet content including html pages, js files, stylessheets, images and videos. CDN does not host content and cant replace proper web hosting. It does help cache content at the network edge, which improves website performance.
+Benefits: 
+Improving website load times
+Reducing bandwidth costs
+Increasing content availability and redundancy
+Improving website security
+
+Why is react called react?
+React is called react becuase of its core feature which is abilitiy to react or respond dynamically to changes in data. It was originally created by Facebook in 2011 for use in their web application and it was released as an open source project in 2013. The name react also refers to the fact that library is built around the fact the concept of unidirectional data flow, where changes in data flow down through the component hierarchy, triggering updates and re- renders as necessary. 
+
+What is cross- origin in the script tag?
+Cross origin attribute sets the mode of the request to an HTTP CORS request. A cross origin request is a request for a resource from another domain. CORS is used to manage cross- origin requests. It is a mechanism that allows resoureces on a web page to be requested from another domain outside their own domain.
+
+Difference between react adn react dom?
+React package is required to create and use components and hooks and eventually design better user interfaces. while react-dom is a complimentary library to React which glues react to the browser DOM.
+
+Difference between react.development.js and react.production.js?
+Development version is suitable for development and not for production. production version is minified and optimized for production.
+
+Difference between async and defer:
+Async allows your script to run as soon as it's loaded, without blocking other elements on the page. Defer means your script will only execute after the page has finished loading
+

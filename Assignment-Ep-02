@@ -1,0 +1,20 @@
+What is npm?
+npm is node package manager which is used to manage the packages inside your project. but it does not stand for node package manager. npm consists of two main parts one is CLI(command line interface) tool for publishing and downloading packages and online repo that hosts javascript packages.
+
+What is parcel/webpack? why do we need it?
+Parcel is a bundler which ignites our app and make our app production ready.
+
+What is .parcel/cache?
+It has the cache which is needed to build the project faster. The .cache folder stores information about your project when it builds it. so when it rebuilds it, it does not have to reparse and reanalyze everything from scratch. Thats why it provides faster builds.
+
+what is npx?
+A tool for executing node packages. I twill check whether the command exists in path or in local project binaries and execute it. ex- npx package_name
+
+What is difference between dependencies and dev dependencies?
+When we need a dependency for only development purposes then we install it as dev dependency and when we need it for production as well then we install it as normal dependency.
+
+Tree shaking?
+Tree shaking means removal of dead code or unused code. By using tree shaking we can significantly improve take down the bundle size therefore optimizing the application and increasing its performance.
+
+Hot module replacement?
+It allows all kind of modules to be updated at run time without the need of full refresh. It comes by default in bundlers. Basically when you make a change, parcel automatically updates your code in browser
